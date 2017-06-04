@@ -7,10 +7,10 @@ declared-services:
     label: cloudantNoSQLDB
     plan: Lite
 applications:
-- name: wConversationMaster
+- name: fbbot-touch
   memory: 1024M
   instances: 1
-  host: wConversationMaster
+  host: fbbot-touch
   services:
   - wcm-conversation
   - wcm-cloudant
